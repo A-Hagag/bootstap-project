@@ -1,502 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techrix | It solution</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style-parctical.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechRix</title>
-</head>
-<script src="https://kit.fontawesome.com/87df474be1.js" crossorigin="anonymous"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-<link rel="stylesheet" href="assets/css/style.css">
-<body>
-<!-- Start loading -->
-<div id="loading-screen"><img src="./assets/images/logo-dark.png" alt=""></div>
-<!-- end loading -->
+  <body>
+    <!-- Start loading -->
+    <!-- <section id="loading-screen"><img src="./assets/images/logo-dark.png" alt=""></section> -->
+    <!-- end loading -->
 
-  <!-- Start Header -->
-<header class="p-3 px-0 pt-0 bg-white text-white">
-<div class="row mb-3 pb-3 top-nav">
-    <div class="col-xl-2 col-sm-12 text-center offset-xl-1 social-header pt-3">
-        <a href="#"><i class=" header-icons text-white mb-2 fab fa-facebook-f"></i></a>
-        <a href="#"><i class=" header-icons text-white mb-2 fab fa-github"></i></a>    
-        <a href="#"><i class=" header-icons text-white mb-2 fab fa-instagram"></i></a> 
-        <a href="#"><i class=" header-icons text-white mb-2 fab fa-skype"></i></a>   
-    </div>  
-    <div class="col-xl-4 col-sm-12  text-center offset-xl-4 pt-3 nav-contact-info">
-        <a href="" class="text-light"> +1-231-123-412</a> <a href ="" class="text-light"><i class="fa-solid fa-envelope me-2 ms-4 "></i> info@Techrix.com</a>
-    </div>
-</div>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand offset-1" href="#"><img src="assets/images/logo-dark.png" alt="logo" class="navbar-logo"></a>
-      <button class="navbar-toggler btn-dark " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-4">
-          <li class="nav-item">
-            <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-dark ms-3 navbar-button text-center">Become a member</button>
-          </li>
-        </ul>
+    <!-- Start Header -->
+    <header class="main-header">
+      <div class="top-header">
+        <div class="container">
+          <div class="col">
+            <div class="header-social text-right">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-skype"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="header-contact">
+              <ul>
+                <li>
+                  <a href="tel:+112345678900"
+                    ><i class="fas fa-phone-flip"></i
+                    ><span>+1-123-456-789-00</span></a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:info@techrix.com"
+                    ><i class="fas fa-envelope"></i
+                    ><span>info@techrix.com</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
-  <!-- End Header -->
 
-
-
-    <!-- start lander -->
-    <div class="container-fluid landing">
-        <div class="overlay"></div>
-        <div class="row align-items-center landing-row ">
-            <div class="col-md-6 align-self-center landing-text-col ">
-                <div class="row p-5 px-0">
-                    <div class="col offset-3">
-                        <h2 class="landing-title">
-                            Hello Everyone! <br>
-                            We Are Techrix....
-                        </h2>
-                        <p class="landing-parg">
-                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit
-                            aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet
-                            et,
-                            porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
-                        </p>
-                    </div>
-                </div>
+      <div class="main-nav">
+        <div class="container">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-dark.png" alt="Logo" />
+          </a>
+          <nav>
+            <i class="fas fa-bars toggle-menu"></i>
+            <ul>
+              <li>
+                <a class="active" href="index.html"
+                  ><i class="fas fa-home"></i> Home</a
+                >
+              </li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="form">
+              <a href="#" class="theming-btn primary-button">Register</a>
             </div>
+          </nav>
         </div>
-    </div>
-    <!-- end lander -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-    <!-- start About -->
-    <div class="container mt-5 text-center">
-        <div class="row">
-            <div class="col">
-                <h1 class="section-title">
-                    About
-                </h1>
-                <h6 class="mt-2 sec-sub-title">less is more work</h6>
-            </div>
+    <!-- Start Landing -->
+    <section id="slider" class="landing">
+      <div class="overlay"></div>
+      <div class="text">
+        <div class="content">
+          <h2>
+            Hello Everyone!<br />
+            We Are Techrix....
+          </h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
         </div>
-        <div class="row mt-5">
-            <div class="col-lg-5 ">
-                <div class="about-image">
-                    <img src="assets/images/about.jpg" alt="sec-about-photo" class="sec-about-photo">
-                </div>
-            </div>
-            <div class="col-lg-5  offset-lg-1">
-                <h2 class="about-title text-start">
-                    More About Techrix
-                </h2>
-                <p class="text-start">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
-                    tincidunt nibh pulvinar a. Curabitur aliquet quam. Curabitur arcu erat, accumsan id imperdiet et,
-                    porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet
-                    quam. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
-                    eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Curabitur arcu erat, accumsan id imperdiet
-                    et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet
-                    quam.
-                </p>
-            </div>
+      </div>
+    </section>
+    <!-- End Landing -->
+
+    <!-- Start About -->
+    <section id="about-us" class="about-us">
+      <div class="container">
+        <div class="main-heading">
+          <h2 class="special-heading">About</h2>
+          <p>Less is more work</p>
         </div>
-    </div>
+        <div class="about-container">
+          <div class="about-image">
+            <img src="./assets/images/about.jpg" alt="" />
+          </div>
 
-
-    <!-- end About -->
-
-    <!-- start services -->
-    <div class="container-fluid services">
-        <div class="row text-center">
-            <div class="col mt-3">
-                <h1 class="section-title mt-5 mb-3">
-                    Services
-                </h1>
-                <h6 class="mt-2 mb-5 sec-sub-title">What We Have for you</h6>
+          <div class="about-info">
+            <div class="text">
+              <h3>More About Techrix</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam. Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam. Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
+              </p>
             </div>
+          </div>
         </div>
-        <div class="row text-center ">
-            <div class="col-lg-6 col-sm-12">
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-lg-1 text-center service-icon">
-                        <i class="fas fa-desktop fa-2x"></i>
-                    </div>
-                    <div class="col-lg-7 col-sm-12  mx-4 text-start mb-5 ">
-                        <h2 class="service-title">Vorem amet intuitive</h2>
-                        <p class="text-start">
-                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                            elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-lg-1 text-center service-icon">
-                        <i class="fas fa-cog fa-2x"></i>
-                    </div>
-                    <div class="col-lg-7 col-sm-12  mx-4 text-start mb-5 ">
-                        <h2 class="service-title">Vorem amet intuitive</h2>
-                        <p class="text-start">
-                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                            elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-lg-1 text-center service-icon">
-                        <i class="fas fa-pencil-ruler fa-2x"></i>
-                    </div>
-                    <div class="col-lg-7 col-sm-12  mx-4 text-start mb-5 ">
-                        <h2 class="service-title">Vorem amet intuitive</h2>
-                        <p class="text-start">
-                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                            elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-lg-1 text-center service-icon">
-                        <i class="fas fa-camera fa-2x"></i>
-                    </div>
-                    <div class="col-lg-7 col-sm-12  mx-4 text-start mb-5 ">
-                        <h2 class="service-title" >Vorem amet intuitive</h2>
-                        <p class="text-start">
-                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-                            elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      </div>
+    </section>
+    <!-- End About -->
 
-    <!-- end services -->
+    <!-- Start Services -->
+    <section class="services">
+      <div class="container">
+        <div class="services">
+          <div class="container">
+            <div class="main-heading">
+              <h2 class="special-heading">Services</h2>
+              <p>What We Have for you</p>
+            </div>
+            <div class="services-container">
+              <div class="srv-box">
+                <div class="icon-holder">
+                  <i class="fas fa-desktop fa-3x"></i>
+                </div>
+                <div class="text">
+                  <h3>Vorem amet intuitive</h3>
+                  <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                    pulvinar a. Curabitur aliquet quam.
+                  </p>
+                </div>
+              </div>
+              <div class="srv-box">
+                <div class="icon-holder"><i class="fas fa-cog fa-3x"></i></div>
+                <div class="text">
+                  <h3>Vorem amet intuitive</h3>
+                  <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                    pulvinar a. Curabitur aliquet quam.
+                  </p>
+                </div>
+              </div>
+              <div class="srv-box">
+                <div class="icon-holder">
+                  <i class="fas fa-pencil-ruler fa-3x"></i>
+                </div>
+                <div class="text">
+                  <h3>Vorem amet intuitive</h3>
+                  <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                    pulvinar a. Curabitur aliquet quam.
+                  </p>
+                </div>
+              </div>
+              <div class="srv-box">
+                <div class="icon-holder">
+                  <i class="fas fa-camera fa-3x"></i>
+                </div>
+                <div class="text">
+                  <h3>Vorem amet intuitive</h3>
+                  <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Mauris blandit aliquet elit, eget tincidunt nibh
+                    pulvinar a. Curabitur aliquet quam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
 
     <!-- Start Portfolio -->
-    <div class="container-fluid portfolio">
-        <div class="row text-center">
-            <div class="col mt-3">
-                <h1 class="section-title mt-5 mb-3">
-                    Portfolio
-                </h1>
-                <h6 class="mt-2 mb-5 sec-sub-title">Less is more work</h6>
-            </div>
-        </div>
-        <div class="row mb-5 text-center portfolio-buttons ">
-            <div class="col-md-3"></div>
-            <div class="col"><button type="button" class="btn portfolio-btn ">All</button> </div>
-            <div class="col"><button type="button" class="btn portfolio-btn ">App</button> </div>
-            <div class="col"><button type="button" class="btn portfolio-btn ">Photo</button> </div>
-            <div class="col"><button type="button" class="btn portfolio-btn ">Web</button> </div>
-            <div class="col"><button type="button" class="btn portfolio-btn ">Print</button> </div>
-            <div class="col-md-3"></div>
-        </div>
+    <section class="portfolio">
+      <div class="container">
         <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-1.jpg" alt="" class="port-image" >
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-2.jpg" alt="" class="port-image" >
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-3.jpg" alt="" class="port-image" >
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-4.jpg" alt="" class="port-image" >
-            </div>
+          <div class="main-heading">
+            <h2 class="special-heading">portfolio</h2>
+            <p>Less is more work</p>
+          </div>
+          <ul class="shuffle">
+            <li class="active">All</li>
+            <li>App</li>
+            <li>Photo</li>
+            <li>Web</li>
+            <li>Print</li>
+          </ul>
         </div>
-        <div class="row mt-3">
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-5.jpg" alt="" class="port-image" >
+        <div class="imgs-container">
+          <div class="box">
+            <img src="./assets/images/port-1.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
             </div>
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-6.jpg" alt="" class="port-image" >
+          </div>
+          <div class="box">
+            <img src="./assets/images/port-2.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
             </div>
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-7.jpg" alt="" class="port-image" >
+          </div>
+          <div class="box">
+            <img src="./assets/images/port-3.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
             </div>
-            <div class="col-xl-3 col-md-6 col-sm-12 mx-0 port-img-col ">
-                <img src="assets/images/port-8.jpg" alt="" class="port-image" >
+          </div>
+          <div class="box">
+            <img src="./assets/images/port-4.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
             </div>
+          </div>
+          <div class="box">
+            <img src="./assets/images/port-5.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./assets/images/port-6.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./assets/images/port-7.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./assets/images/port-8.jpg" alt="" />
+            <div class="caption">
+              <h4>Awesome Image</h4>
+              <p>Photography</p>
+            </div>
+          </div>
+          <a href="#" class="theming-btn primary-button">More</a>
         </div>
-        <div class="row text-center portfolio-more mb-5">
-            <div class="col-12 ms-2">
-                <button type="button" class="btn more-button"><h6>More</h6></button>        
-            </div>
-        </div>
-    </div>
+      </div>
+    </section>
+    <!-- End Portfolio -->
 
-    <!-- end Portfolio -->
     <!-- Start Video -->
-  <div class=" video">
-    <video autoplay muted loop>
-      <source src="./assets/video/video.mp4" type="video/mp4" />
-    </video>
-    <div class="text">
-      <h2>Super Awesome Video Here</h2>
-      <p>Its All You Need</p>
-      <button class="theming-btn primary-button">See More</button>
-    </div>
-  </div>
-  <!-- End Video -->
-<!-- Start Blog -->
-<div class="container-fluid Blog">
-    <div class="row text-center">
-        <div class="col mt-3">
-            <h1 class="section-title mt-5 mb-3">
-                Blog
-            </h1>
-            <h6 class="mt-2 mb-5 sec-sub-title">some of our news & articles</h6>
-        </div>
-    </div>
-    <div class="row justify-content-md-center">
-        <div class="col-xl-3 col-md-6 col-sm-12">
-            <div class="card blog-card">
-                <img class="card-img-top" src="assets/images/port-3.jpg" alt="Card image">
-                <div class="card-body">
-                    <h5 class="card-title">Blog name is text here</h5>
-                    <p class="card-text">My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-md-6 col-sm-12">
-            <div class="card blog-card">
-                <img class="card-img-top" src="assets/images/port-1.jpg" alt="Card image">
-                <div class="card-body">
-                    <h5 class="card-title">Blog name is text here</h5>
-                    <p class="card-text">My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-md-6 col-sm-12">
-            <div class="card blog-card">
-                <img class="card-img-top" src="assets/images/port-2.jpg" alt="Card image">
-                <div class="card-body">
-                    <h5 class="card-title">Blog name is text here</h5>
-                    <p class="card-text">My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Blog -->
+    <section class="video"></section>
+    <!-- End Video -->
 
- <!-- Start Prices -->
-    <!-- start services -->
-    <div class="container-fluid services">
-        <div class="row text-center">
-            <div class="col mt-3">
-                <h1 class="section-title mt-5 mb-3">
-                    Pricing
-                </h1>
-                <h6 class="mt-2 mb-5 sec-sub-title">Low budgets are welcome</h6>
-            </div>
-        </div>
-        <div class="row justify-content-md-center">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h2 class="card-price-title">Basic</h2>
-                        <div class="row justify-content-center">
-                            <div class="price-container">
-                                <div class="dollar">$</div>
-                                <h1 class="price-card-title">19</h1>
-                                <div class="per-month">/mo</div>
-                            </div>
-                        </div>
-                        <p class="card-text">
-                    </div> <hr class="price-hr"> 
-                      <div class="border-bottom-price my-4">Cras justo odio</div>
-                      <div class="border-bottom-price my-4">Dapibus ac facilisis in</div>
-                      <div class="border-bottom-price my-4">Vestibulum at eros</div>
-                      <div class="my-4">Vestibulum at eros</div> <hr  class="price-hr">
-                    <div class="card-body">
-                        <button type="button" class="btn text-center buy-now-btn">Buy Now</button>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h2 class="card-price-title">Premium</h2>
-                        <div class="row justify-content-center">
-                            <div class="price-container">
-                                <div class="dollar">$</div>
-                                <h1 class="price-card-title">29</h1>
-                                <div class="per-month">/mo</div>
-                            </div>
-                        </div>
-                        <p class="card-text">
-                    </div> <hr class="price-hr"> 
-                      <div class="border-bottom-price my-4">Cras justo odio</div>
-                      <div class="border-bottom-price my-4">Dapibus ac facilisis in</div>
-                      <div class="border-bottom-price my-4">Vestibulum at eros</div>
-                      <div class="my-4">Vestibulum at eros</div> <hr  class="price-hr">
-                    <div class="card-body">
-                        <button type="button" class="btn text-center buy-now-btn">Buy Now</button>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h2 class="card-price-title">Pro</h2>
-                        <div class="row justify-content-center">
-                            <div class="price-container">
-                                <div class="dollar">$</div>
-                                <h1 class="price-card-title">39</h1>
-                                <div class="per-month">/mo</div>
-                            </div>
-                        </div>
-                        <p class="card-text">
-                    </div> <hr class="price-hr"> 
-                      <div class="border-bottom-price my-4">Cras justo odio</div>
-                      <div class="border-bottom-price my-4">Dapibus ac facilisis in</div>
-                      <div class="border-bottom-price my-4">Vestibulum at eros</div>
-                      <div class="my-4">Vestibulum at eros</div> <hr  class="price-hr">
-                    <div class="card-body">
-                        <button type="button" class="btn text-center buy-now-btn">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row contact-now-row text-center my-5">
-                <div class="col-12 contact-message">
-                    <h6>Contact us if you have special request</h6>
-                </div>
-                <div class="col-12">
-                    <button type="button" class="btn text-center contact-btn">Buy Now</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    <!-- End Prices -->
-    
-    <!-- Start Prices -->
-    <div class="container mb-5">
-        <div class="row text-center">
-            <div class="col mt-3">
-                <h1 class="section-title mt-5 mb-3">
-                    Contact
-                </h1>
-                <h6 class="mt-2 mb-5 sec-sub-title">Leave a Message for Us</h6>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-7 col-sm-12 offset-md-1">
-                <input class="form-control form-control-lg mb-4" type="text" placeholder="Your Name">
-                <input class="form-control form-control-lg mb-4" type="text" placeholder="Your Email">
-                <textarea class="form-control form-control-lg" type="text" placeholder="Your Message"></textarea>
-                <div class="row send-mess-row">
-                    <div class="col text-end">
-                        <button type="button" class="btn contact-btn">Send Message</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 ms-md-5 col-sm-12 mt-sm-4 mt-md-0 text-start">
-                <h5>Get In Touch</h5> <br>
-                <p>+00 123.456.789 <p>
-                    +00 123.456.789</h6> <br> <br>
-                    <h5>Where We Are</h5><br>
-                    <p>Awesome Address 17
-                    New York, NYC
-                    123-4567-890
-                    USA</p>
-            </div>
-        </div>
-    </div>
+    <!-- Start Skills -->
+    <section class="our-blog"></section>
+    <!-- End Skills -->
 
- <!-- End Prices -->
- 
- 
- <!-- Start Footer -->
- 
- <div class="container-fluid foot pt-5 pb-5">
-    <div class="row justify-content-center px-5 mx-5">
-        <div class="col-xl-3">
-            <img src="assets/images/logo-white.png" alt="logo" class="foot-logo">
-            <p class=" mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-            <div class="row text-center">
-                <div class="col-3 footer-social"><a href="#"><i class="text-white mb-4 fab fa-facebook-f"></i></a></div>
-                <div class="col-3 footer-social"><a href="#"><i class="text-white mb-4 fab fa-github"></i></a></div>
-                <div class="col-3 footer-social"><a href="#"><i class="text-white mb-4 fab fa-instagram"></i></a></div>
-                <div class="col-3 footer-social"><a href="#"><i class="text-white mb-4 fab fa-skype"></i></a></div>
-            </div>
-        </div>
-        <div class="col-xl-3"  >
-            <h3 class="foot-subtitle mb-5">Our Services</h3>
-            <li class="ps-1 mb-2 foot-list" >Software Development</li>
-            <li class="ps-1 mb-2 foot-list" >Web Development</li>
-            <li class="ps-1 mb-2 foot-list" >Mobile Development</li>
-            <li class="ps-1 mb-2 foot-list" >App Development</li>
-            <li class="ps-1 mb-2 foot-list" >QA Testing</li>
-        </div>
-        <div class="col-xl-3"  >
-            <h3 class="foot-subtitle mb-5">Useful link</h3>
-            <li class="ps-1 mb-2 foot-list" >Fact Search Engine</li>
-            <li class="ps-1 mb-2 foot-list" >Learn and Code</li>
-            <li class="ps-1 mb-2 foot-list" >Video Sharing Website</li>
-            <li class="ps-1 mb-2 foot-list" >File & URL Scanner</li>
-            <li class="ps-1 mb-2 foot-list" >Online Software Package</li>
-        </div>
-        <div class="col-xl-3"  >
-            <h3 class="foot-subtitle mb-5">Recent post</h3>
-            <li class="ps-1 mb-2 foot-list" >Fact Search Engine</li>
-            <li class="ps-1 mb-2 foot-list" >Learn and Code</li>
-            <li class="ps-1 mb-2 foot-list" >Video Sharing Website</li>
-            <li class="ps-1 mb-2 foot-list" >File & URL Scanner</li>
-            <li class="ps-1 mb-2 foot-list" >Online Software Package</li>
-        </div>
-    </div>
-</div>
-<div class="container-fluid foot-last ">
-    <div class="row">
-        <div class="col text-center">
-            <h6 class="last-text mt-3">© Copyrights 2024 <a href="" class="Techrix">Techrix</a> All rights reserved.</h6>
-        </div>
-    </div>
-</div>
- <!-- End Footer-->
- <a href="#top" id="scroll-to-top"><i class="fas fa-angle-up "></i></a>
-</body>
+    <!-- Start Pricing -->
+    <section class="pricing"></section>
+    <!-- End Pricing -->
+
+    <!-- Start Contact -->
+    <section class="contact"></section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer id="footer"></footer>
+    <!-- End Footer -->
+  </body>
 </html>
